@@ -1,5 +1,5 @@
 scoreboard objectives remove ready
-scoreboard objectives add ready dummy [{"text":"Ready up!", "color":"yellow", "bold":true}]
+scoreboard objectives add ready trigger [{"text":"Ready up!", "color":"yellow", "bold":true}]
 scoreboard objectives setdisplay sidebar ready
 scoreboard players set @a ready 0
 
