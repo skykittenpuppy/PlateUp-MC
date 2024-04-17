@@ -3,12 +3,15 @@ scoreboard objectives add ready trigger [{"text":"Ready up!", "color":"yellow", 
 scoreboard players set @a ready 0
 
 scoreboard objectives remove noready
-scoreboard objectives add noready dummy "You shouldn't see this..."
+scoreboard objectives add noready dummy "Is there a reason to prevent readying?"
 scoreboard players set generic noready 0
 
 scoreboard objectives remove phase
-scoreboard objectives add phase dummy "You shouldn't see this..."
-scoreboard players set generic phase 0
+scoreboard objectives add phase dummy "Current phase"
+scoreboard players set generic phase 1
+
+scoreboard objectives remove progress
+scoreboard objectives add progress dummy "Modification progress"
 
 bossbar remove ready
 bossbar add ready [{"text":"Ready up with ", "color":"yellow", "bold":true, "underlined":false}, {"text":"/trigger ready", "color":"aqua", "bold":false, "underlined":true}, {"text":" !", "color":"yellow", "bold":true, "underlined":false}]
@@ -26,6 +29,11 @@ bossbar remove timer
 bossbar add timer [{"text":"⏳", "color":"aqua", "bold":false}, {"text":" Time Remaining ", "color":"yellow", "bold":true}, {"text":"⏳", "color":"aqua", "bold":false}]
 bossbar set timer players @a
 bossbar set timer color yellow
+
+kill @e[type=!minecraft:player]
+execute positioned 59.5 -59.5 14.5 run function plateup:load-counter
+execute positioned 58.5 -59.5 14.5 run function plateup:load-counter
+execute positioned 57.5 -59.5 14.5 run function plateup:load-counter
 
 team add aqua "aqua"
 team modify aqua color aqua
