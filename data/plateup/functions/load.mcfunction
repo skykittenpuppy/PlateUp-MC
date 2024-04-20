@@ -31,11 +31,12 @@ bossbar set timer players @a
 bossbar set timer color yellow
 
 kill @e[type=!minecraft:player]
-execute positioned 59.5 -59.5 14.5 run function plateup:make-counter
-execute positioned 58.5 -59.5 14.5 run function plateup:make-counter
-execute positioned 57.5 -59.5 14.5 run function plateup:make-stove
-execute positioned 56.5 -59.5 14.5 run function plateup:make-stove
-execute positioned 55.5 -59.5 14.5 run function plateup:make-stove
+execute positioned 59.5 -59.5 14.5 run function plateup:workstations/counter-make
+execute positioned 58.5 -59.5 14.5 run function plateup:workstations/counter-make
+execute positioned 57.5 -59.5 14.5 run function plateup:workstations/stove-make
+execute positioned 56.5 -59.5 14.5 run function plateup:workstations/stove-make
+execute positioned 55.5 -59.5 14.5 run function plateup:workstations/stove-make
+execute positioned 54.5 -59.5 14.5 run function plateup:workstations/fridge-make
 
 team add aqua "aqua"
 team modify aqua color aqua
