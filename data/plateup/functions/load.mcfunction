@@ -13,6 +13,9 @@ scoreboard players set generic phase 1
 scoreboard objectives remove progress
 scoreboard objectives add progress dummy "Modification progress"
 
+scoreboard objectives remove doprog
+scoreboard objectives add doprog dummy "If progress is being made"
+
 bossbar remove ready
 bossbar add ready [{"text":"Ready up with ", "color":"yellow", "bold":true, "underlined":false}, {"text":"/trigger ready", "color":"aqua", "bold":false, "underlined":true}, {"text":" !", "color":"yellow", "bold":true, "underlined":false}]
 bossbar set ready players @a
@@ -31,12 +34,12 @@ bossbar set timer players @a
 bossbar set timer color yellow
 
 kill @e[type=!minecraft:player]
-execute positioned 59.5 -59.5 14.5 run function plateup:workstations/counter-make
-execute positioned 58.5 -59.5 14.5 run function plateup:workstations/counter-make
-execute positioned 57.5 -59.5 14.5 run function plateup:workstations/stove-make
-execute positioned 56.5 -59.5 14.5 run function plateup:workstations/stove-make
-execute positioned 55.5 -59.5 14.5 run function plateup:workstations/stove-make
-execute positioned 54.5 -59.5 14.5 run function plateup:workstations/fridge-make
+execute positioned 59.5 -60.0 14.5 run function plateup:workstations/counter-make
+execute positioned 58.5 -60.0 14.5 run function plateup:workstations/counter-make
+execute positioned 57.5 -60.0 14.5 run function plateup:workstations/stove-make
+execute positioned 56.5 -60.0 14.5 run function plateup:workstations/stove-make
+execute positioned 55.5 -60.0 14.5 run function plateup:workstations/stove-make
+execute positioned 54.5 -60.0 14.5 run function plateup:workstations/fridge-make
 
 team add aqua "aqua"
 team modify aqua color aqua

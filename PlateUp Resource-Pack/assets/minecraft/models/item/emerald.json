@@ -3,10 +3,48 @@
   "textures": {
     "layer0": "minecraft:item/emerald"
   },
-  "overrides" : [{
-    "predicate": {
-      "custom_model_data": 1
+  "overrides" : [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "plateup:item/plate"
     },
-    "model": "plateup:item/plate"
-  }]
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "plateup:item/burn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "plateup:item/raw_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "plateup:item/rare_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "plateup:item/medium_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "plateup:item/welldone_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "plateup:item/chopped_steak"
+    }
+  ]
 }
