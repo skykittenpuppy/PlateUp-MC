@@ -1,7 +1,7 @@
 bossbar set ready visible false
 bossbar set noready visible false
 bossbar set timer visible true
-scoreboard objectives setdisplay sidebar doprog
+scoreboard objectives setdisplay sidebar progress
 
 execute as @e[type=block_display, tag=counter] at @s run function plateup:workstations/counter-tick
 execute as @e[type=block_display, tag=stove] at @s run function plateup:workstations/stove-tick

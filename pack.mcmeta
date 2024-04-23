@@ -1,6 +1,38 @@
 {
     "pack": {
         "pack_format": 40,
-        "description": "§7PlateUp!                      §8§lskykittenpuppy §r§8(§9§obeegirl.gay§r§8)"
+        "supported_formats": [34, 41],
+        "description": [
+            {
+                "text": "PlateUp!",
+                "color": "blue",
+                "italic": false,
+                "bold": true
+            },
+            {
+                "text": "\nskykittenpuppy ",
+                "color": "#9c72ea",
+                "italic": false,
+                "bold": false
+            },
+            {
+                "text": "(",
+                "color": "gray",
+                "italic": false,
+                "bold": false
+            },
+            {
+                "text": "beegirl.gay",
+                "color": "#0000EE",
+                "italic": true,
+                "bold": false
+            },
+            {
+                "text": ")",
+                "color": "gray",
+                "italic": false,
+                "bold": false
+            }
+        ]
     }
 }

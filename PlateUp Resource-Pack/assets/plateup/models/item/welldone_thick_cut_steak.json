@@ -1,0 +1,7 @@
+{
+  "parent": "plateup:item/raw_thick_cut_steak",
+  "textures": {
+		"0": "plateup:item/welldone_thick_cut_steak",
+		"particle": "plateup:item/welldone_thick_cut_steak"
+  }
+}

@@ -1,7 +1,6 @@
 setblock ~ ~0.5 ~ barrier
 setblock ~ ~1.5 ~ barrier
 setblock ~ ~-1.5 ~ barrel[facing=up]
-item replace block ~ ~-1.5 ~ container.0 with emerald[minecraft:custom_model_data=3]
 
 summon block_display ~ ~ ~ {Tags:[fridge], block_state:{Name:"minecraft:blue_glazed_terracotta"}, transformation:[1.0000f,0.0000f,0.0000f,-0.5000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,-0.5000f,0.0000f,0.0000f,0.0000f,1.0000f]}
 summon item_display ~ ~ ~ {transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,1.7500f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
