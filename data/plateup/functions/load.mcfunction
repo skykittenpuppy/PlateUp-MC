@@ -47,6 +47,7 @@ execute positioned 52.5 -60.0 14.5 run function plateup:workstations/fridge-make
 item replace block 52 -62 14 container.0 with emerald[minecraft:custom_model_data=30]
 execute positioned 51.5 -60.0 14.5 run function plateup:workstations/fridge-make
 item replace block 51 -62 14 container.0 with emerald[minecraft:custom_model_data=40]
+execute positioned 51.5 -60.0 10.5 run function plateup:workstations/bin-make
 
 team add aqua "aqua"
 team modify aqua color aqua

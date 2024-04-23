@@ -1,0 +1,23 @@
+{
+	"values": [
+		"plateup:recipes/stove/raw_steak",
+		"plateup:recipes/stove/rare_steak",
+		"plateup:recipes/stove/medium_steak",
+		"plateup:recipes/stove/welldone_steak",
+		
+		"plateup:recipes/stove/raw_bone-in_steak",
+		"plateup:recipes/stove/rare_bone-in_steak",
+		"plateup:recipes/stove/medium_bone-in_steak",
+		"plateup:recipes/stove/welldone_bone-in_steak",
+
+		"plateup:recipes/stove/raw_thick_cut_steak",
+		"plateup:recipes/stove/rare_thick_cut_steak",
+		"plateup:recipes/stove/medium_thick_cut_steak",
+		"plateup:recipes/stove/welldone_thick_cut_steak",
+
+		"plateup:recipes/stove/raw_thin_cut_steak",
+		"plateup:recipes/stove/rare_thin_cut_steak",
+		"plateup:recipes/stove/medium_thin_cut_steak",
+		"plateup:recipes/stove/welldone_thin_cut_steak"
+	]
+}
