@@ -12,9 +12,39 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "plateup:block/counter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "plateup:block/stove"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "plateup:block/fridge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "plateup:block/bin"
+    },
+    {
+      "predicate": {
         "custom_model_data": 5
       },
       "model": "plateup:item/plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "plateup:block/crate"
     },
     {
       "predicate": {
