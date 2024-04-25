@@ -78,6 +78,24 @@
     },
     {
       "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "plateup:item/plated_rare_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "plateup:item/plated_medium_steak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "plateup:item/plated_welldone_steak"
+    },
+    {
+      "predicate": {
         "custom_model_data": 20
       },
       "model": "plateup:item/raw_bone-in_steak"
