@@ -15,5 +15,4 @@ execute if score @s progress matches 0723..0777 run data modify entity @e[limit=
 execute if score @s progress matches 0778..0833 run data modify entity @e[limit=1, sort=nearest, type=text_display] text set value '[{"text":"|||||||||||||||", "color":"green"},{"text":"|||", "color":"gray"}]'
 execute if score @s progress matches 0834..0888 run data modify entity @e[limit=1, sort=nearest, type=text_display] text set value '[{"text":"||||||||||||||||", "color":"green"},{"text":"||", "color":"gray"}]'
 execute if score @s progress matches 0889..0944 run data modify entity @e[limit=1, sort=nearest, type=text_display] text set value '[{"text":"|||||||||||||||||", "color":"green"},{"text":"|", "color":"gray"}]'
-execute if score @s progress matches 0945..1000 run data modify entity @e[limit=1, sort=nearest, type=text_display] text set value '[{"text":"||||||||||||||||||", "color":"green"},{"text":"", "color":"gray"}]'
-execute if score @s progress matches 1000.. run scoreboard players set @s progress 0
+execute if score @s progress matches 0945.. run data modify entity @e[limit=1, sort=nearest, type=text_display] text set value '[{"text":"||||||||||||||||||", "color":"green"},{"text":"", "color":"gray"}]'
