@@ -1,7 +1,6 @@
 {
     "pack": {
-        "pack_format": 40,
-        "supported_formats": [34, 41],
+        "pack_format": 48,
         "description": [
             {
                 "text": "PlateUp!",
