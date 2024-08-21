@@ -1,5 +1,5 @@
 {
-  "parent": "plateup:item/raw_steak",
+  "parent": "plateup:item/template/steak",
   "textures": {
 		"0": "plateup:item/welldone_steak",
 		"particle": "plateup:item/welldone_steak"

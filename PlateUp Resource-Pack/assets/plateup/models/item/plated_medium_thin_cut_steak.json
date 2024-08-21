@@ -1,5 +1,5 @@
 {
-  "parent": "plateup:item/template/thin_cut_steak",
+  "parent": "plateup:item/template/plated_thin_cut_steak",
   "textures": {
 		"0": "plateup:item/medium_thin_cut_steak",
 		"particle": "plateup:item/medium_thin_cut_steak"

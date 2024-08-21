@@ -1,0 +1,7 @@
+{
+  "parent": "plateup:item/template/steak",
+  "textures": {
+		"0": "block/coal_block",
+		"particle": "block/coal_block"
+  }
+}
