@@ -1,0 +1,7 @@
+{
+  "parent": "plateup:item/template/thin_cut_steak",
+  "textures": {
+		"0": "block/coal_block",
+		"particle": "block/coal_block"
+  }
+}

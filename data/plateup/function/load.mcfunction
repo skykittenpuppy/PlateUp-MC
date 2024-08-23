@@ -35,8 +35,8 @@ bossbar set timer color yellow
 
 kill @e[type=!minecraft:player]
 execute as @a run attribute @s generic.jump_strength base set 0.25
-execute positioned 59.5 -60.0 14.5 run function plateup:workstations/counter-make
-execute positioned 58.5 -60.0 14.5 run function plateup:workstations/counter-make
+execute positioned 59.5 -60.0 14.5 run function plateup:workstations/bin-make
+execute positioned 58.5 -60.0 14.5 run function plateup:workstations/stove-make
 execute positioned 57.5 -60.0 14.5 run function plateup:workstations/stove-make
 execute positioned 56.5 -60.0 14.5 run function plateup:workstations/stove-make
 execute positioned 55.5 -60.0 14.5 run function plateup:workstations/stove-make
@@ -48,9 +48,12 @@ execute positioned 52.5 -60.0 14.5 run function plateup:workstations/fridge-make
 item replace block 52 -62 14 container.0 with plateup:raw_thick_cut_steak
 execute positioned 51.5 -60.0 14.5 run function plateup:workstations/fridge-make
 item replace block 51 -62 14 container.0 with plateup:raw_thin_cut_steak
-execute positioned 51.5 -60.0 10.5 run function plateup:workstations/bin-make
-execute positioned 52.5 -60.0 10.5 run function plateup:workstations/crate-make
-item replace block 52 -62 10 container.0 with plateup:plate
+execute positioned 59.5 -60.0 10.5 run function plateup:workstations/counter-make
+execute positioned 58.5 -60.0 10.5 run function plateup:workstations/counter-make
+execute positioned 57.5 -60.0 10.5 run function plateup:workstations/counter-make
+execute positioned 56.5 -60.0 10.5 run function plateup:workstations/counter-make
+execute positioned 51.5 -60.0 10.5 run function plateup:workstations/crate-make
+item replace block 51 -62 10 container.0 with plateup:plate
 
 team add aqua "aqua"
 team modify aqua color aqua

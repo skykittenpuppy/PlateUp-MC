@@ -2,6 +2,15 @@
 	"values": [
 		"plateup:recipes/combine/rare_steak",
 		"plateup:recipes/combine/medium_steak",
-		"plateup:recipes/combine/welldone_steak"
+		"plateup:recipes/combine/welldone_steak",
+		"plateup:recipes/combine/rare_bone_in_steak",
+		"plateup:recipes/combine/medium_bone_in_steak",
+		"plateup:recipes/combine/welldone_bone_in_steak",
+		"plateup:recipes/combine/rare_thick_cut_steak",
+		"plateup:recipes/combine/medium_thick_cut_steak",
+		"plateup:recipes/combine/welldone_thick_cut_steak",
+		"plateup:recipes/combine/rare_thin_cut_steak",
+		"plateup:recipes/combine/medium_thin_cut_steak",
+		"plateup:recipes/combine/welldone_thin_cut_steak"
 	]
 }
